@@ -93,31 +93,5 @@ After building the app for production, you can deploy the build directory to a w
 Follow the deployment instructions provided by your chosen hosting platform.
 
 ## Live Demo
+
 https://ilia-frontend.vercel.app/
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your forked repository.
-5. Create a pull request against the main repository.
-
-## License
-
-This project is licensed under the MIT License.
-
-This README.md file covers the following:
-
-- Prerequisites for running the app (Node.js, npm/yarn)
-- Installation instructions (cloning the repository, installing dependencies, creating the `.env` file with the required environment variable)
-- Development instructions (running the app in development mode with npm or yarn)
-- Production instructions (building the app for production with npm or yarn)
-- Deployment information (suggestions for hosting platforms and deploying the production build)
-- Contributing guidelines
-- License information
-
-Make sure to replace `your-username` with your actual GitHub username in the repository URL. Also, update the `LICENSE` file with the appropriate license for your project.
-```
