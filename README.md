@@ -45,18 +45,6 @@ The application utilizes React's built-in state management capabilities, includi
 
 The application's styling is implemented using Tailwind CSS and Styled Components.
 
-### Performance Optimizations
-
-To ensure optimal performance, the application employs the following techniques:
-
-- **Code Splitting**: The application leverages React's code splitting capabilities to split the application code into smaller chunks, allowing for lazy-loading of components and reducing the initial bundle size.
-
-- **Memoization**: The application makes use of React's `memo` higher-order component and the `useMemo` hook to memoize expensive computations and prevent unnecessary re-renders.
-
-- **Debouncing**: The `useDebounce` custom hook is used to debounce the search input, reducing the number of API calls made during typing.
-
-- **Infinite Scrolling**: The `InfiniteScroll` component from the `react-infinite-scroll-component` library is used to implement infinite scrolling, reducing the initial load time and improving the user experience.
-
 ### Testing
 
 The application includes a suite of tests written using the Cypress testing framework. These tests cover various aspects of the application, including user interactions, component rendering, and API integration.
