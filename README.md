@@ -1,6 +1,3 @@
-Sure, here is the markdown formatted text for the given content:
-
-```markdown
 # Ilia Frontend Challenge: Pokemon App
 
 This is a React application that allows users to browse and search for Pokemon cards, view details of individual Pokemon, and more.
