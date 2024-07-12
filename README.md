@@ -36,14 +36,6 @@ The data flow in the application follows a unidirectional flow, facilitated by R
 
 When the user interacts with the application (e.g., searching, scrolling, or clicking on a card), the relevant state is updated in the `PokemonCardsProvider`. This state update triggers re-renders in the dependent components, ensuring that the UI reflects the latest data.
 
-### API Integration
-
-The application integrates with the Pokemon TCG API to fetch Pokemon card data. The API integration is handled using the `axios` library, and the API calls are encapsulated in separate functions within the `api` directory.
-
-The application makes use of the following API endpoints:
-
-- `GET /cards`: Fetches a list of Pokemon cards based on the current page and search term.
-- `GET /cards/{id}`: Fetches detailed information about a specific Pokemon card based on its ID.
 
 ### State Management
 
