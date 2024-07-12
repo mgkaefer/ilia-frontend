@@ -43,7 +43,7 @@ The application utilizes React's built-in state management capabilities, includi
 
 ### Styling
 
-The application's styling is implemented using Tailwind CSS, a utility-first CSS framework. Tailwind CSS provides a set of pre-defined utility classes that can be used to style components directly in the JSX code. This approach promotes a more maintainable and scalable codebase by co-locating styles with their respective components.
+The application's styling is implemented using Tailwind CSS and Styled Components.
 
 ### Performance Optimizations
 
