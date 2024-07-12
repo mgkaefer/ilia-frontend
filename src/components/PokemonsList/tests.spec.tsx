@@ -3,9 +3,9 @@ import userEvent from "@testing-library/user-event";
 import { PokemonCards } from "../PokemonCards";
 
 describe("PokemonCards", () => {
-  test("renders Pokemon Cards title", () => {
+  test("renders Pokemon App title", () => {
     render(<PokemonCards />);
-    const titleElement = screen.getByText(/Pokemon Cards/i);
+    const titleElement = screen.getByText(/Pokemon App/i);
     expect(titleElement).toBeInTheDocument();
   });
 
@@ -24,7 +24,7 @@ describe("PokemonCards", () => {
 
   test("sticky header behavior", () => {
     render(<PokemonCards />);
-    const titleElement = screen.getByText(/Pokemon Cards/i);
+    const titleElement = screen.getByText(/Pokemon App/i);
     const searchInputElement =
       screen.getByPlaceholderText(/Search for a Pokemon/i);
 

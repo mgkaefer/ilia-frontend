@@ -4,7 +4,7 @@ import { PokemonCardsProvider } from "../../context/PokemonCardsContext";
 import { PokemonCards } from "../PokemonCards";
 
 describe("PokemonCards", () => {
-  test("renders Pokemon Cards title", () => {
+  test("renders Pokemon App title", () => {
     render(
       <Router>
         <PokemonCardsProvider>
@@ -13,7 +13,7 @@ describe("PokemonCards", () => {
       </Router>
     );
 
-    const titleElement = screen.getByText("Pokemon Cards");
+    const titleElement = screen.getByText("Pokemon App");
     expect(titleElement).toBeInTheDocument();
   });
 

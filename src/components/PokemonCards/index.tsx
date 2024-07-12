@@ -29,7 +29,7 @@ export const PokemonCards: React.FC = () => {
   return (
     <PokemonCardsProvider>
       <PokemonCardsContainer isSticky={isSticky}>
-        <PokemonCardsTitle>Pokemon Cards</PokemonCardsTitle>
+        <PokemonCardsTitle>Pokemon App</PokemonCardsTitle>
 
         <SearchInputContainer isSticky={isSticky}>
           <SearchInput />
