@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import getPokemonById from "../api/getPokemonById";
+import { getPokemonById } from "../api/cards";
 import { PokemonDetails } from "../interfaces/PokemonDetails";
 
 const useFetchPokemonById = (id: string | undefined) => {

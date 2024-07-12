@@ -1,39 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import { createSyncStoragePersister } from "@tanstack/query-sync-storage-persister";
-import { QueryClient, QueryClientConfig } from "@tanstack/react-query";
-import { PersistQueryClientProvider } from "@tanstack/react-query-persist-client";
 import reportWebVitals from "./reportWebVitals";
 
 import App from "./App";
 import "./index.css";
-
-const queryClientOptions: QueryClientConfig = {
-  defaultOptions: {
-    queries: {
-      refetchOnWindowFocus: false,
-    },
-  },
-};
-
-const queryClient = new QueryClient(queryClientOptions);
-
-const persister = createSyncStoragePersister({
-  storage: window.localStorage,
-});
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <PersistQueryClientProvider
-      client={queryClient}
-      persistOptions={{persister}}
-    >
-      <App />
-    </PersistQueryClientProvider>
+    <App />
   </React.StrictMode>
 );
 

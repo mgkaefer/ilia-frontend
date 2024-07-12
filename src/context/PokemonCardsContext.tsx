@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import getAllPokemonCards from "../api/getAllPokemonCards";
-import getPokemonCardsByName from "../api/getPokemonCardsByName";
+import { getAllPokemonCards, getPokemonCardsByName } from "../api/cards";
 import useDebounce from "../hooks/useDebounce";
 import { Card } from "../interfaces/Card";
 

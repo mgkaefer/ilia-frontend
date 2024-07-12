@@ -1,8 +1,8 @@
 import { renderHook } from "@testing-library/react-hooks";
-import getPokemonById from "../../api/getPokemonById";
+import { getPokemonById } from "../../api/cards";
 import useFetchPokemonById from "../../hooks/useSearchPokemonById";
 
-jest.mock("../api/getPokemonById");
+jest.mock("../../api/cards");
 
 describe("useFetchPokemonById", () => {
   afterEach(() => {

@@ -1,6 +1,3 @@
-// import * as dotenv from "dotenv";
-// dotenv.config();
-
 const api = (baseUrl: string | undefined) => {
   const makeRequest = async (endpoint: string, options: RequestInit = {}) => {
     const url = `${baseUrl}${endpoint}`;

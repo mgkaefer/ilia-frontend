@@ -1,7 +1,6 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import React from "react";
-import getAllPokemonCards from "../api/getAllPokemonCards";
-import getPokemonCardsByName from "../api/getPokemonCardsByName";
+import { getAllPokemonCards, getPokemonCardsByName } from "../api/cards";
 import { PokemonCardsContext, PokemonCardsProvider } from "./PokemonCardsContext";
 
 jest.mock("../api/getAllPokemonCards");
